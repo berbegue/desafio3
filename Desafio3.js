@@ -1,4 +1,4 @@
-console.log('Pre-entrega 2 en funcionamiento');
+console.log('Desafio 3 en funcionamiento');
 
 let ingreso=0
 let plazo=0
