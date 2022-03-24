@@ -56,11 +56,6 @@ function extraer (){
         plazo = parseInt(in2.value) ;
         const elec= document.getElementById('eleccion') ;
         info = parseInt(elec.value);
-        console.log(info);
-        console.log(typeof info);
-        
-        console.log(plazo);
-        console.log(typeof plazo);
         monto=(ingreso*.2*plazo);
         TNA=10000/(ingreso/plazo);
         calculoCredito(TNA,monto,plazo);
